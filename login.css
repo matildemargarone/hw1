@@ -1,0 +1,105 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+main.login{
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.login header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.logo{
+    height: 40px;
+    max-width: 160px;
+}
+
+.login h2{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #111827;
+    font-weight: 400;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login label{
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    color: #374151;
+}
+
+#username, #password{
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#username:focus,
+#password:focus {
+    border-color: black;
+    outline: none;
+}
+
+#login-button{
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+#login-button:hover {
+    background-color: rgb(112, 112, 112);
+}
+
+.not-registered {
+    text-align: left;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.not-registered a{
+    text-decoration:none;
+}
+
+#signup-button {
+    display: inline-block;
+    margin: 0;
+    padding: 11px 24px;
+    border: 1px solid black;
+    border-radius: 9999px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#signup-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.error {
+    color: #b91c1c;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    text-align: left;
+}
